@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>E-commerce Watch Website</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Signup Section -->
+    <div id="signup-section">
+      <h2 class="ecom">wheels fabric inc</h2>
+      <input
+        type="text"
+        id="signup-username"
+        placeholder="Enter your username"
+      />
+      <input
+        type="password"
+        id="signup-password"
+        placeholder="Enter your password"
+      />
+      <button id="signup-btn">Sign Up</button>
+      <h6>welcome  </h6>
+    </div>
+
+    <!-- Login Section -->
+    <div id="login-section" style="display: none">
+      <h2>Login</h2>
+      <input
+        type="text"
+        id="login-username"
+        placeholder="Enter your username"
+      />
+      <input
+        type="password"
+        id="login-password"
+        placeholder="Enter your password"
+      />
+      <button id="login-btn">Login</button>
+    </div>
+
+    <!-- E-commerce Website -->
+    <div id="website" style="display: none">
+      <nav>
+        <ul class="navbar">
+          <div class="logo">wheels fabric</div>
+          <li><a href="#">Home</a></li>
+          <li><a href="#products">Products</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li>our location </li>
+          <li>winter 2024 </li>
+          <li class="cart-icon" id="cart-icon">🛒</li>
+        </ul>
+      </nav>
+
+      <main>
+        <section class="hero">
+          <div class="hero-content">
+            <h1>Welcome to wheels fabric</h1>
+            <p>find the best unstitched kammez shalwar.</p>
+           ]
+          </div>
+        </section>
+
+        <section id="products" class="items">
+          <div class="row1">
+            <div class="card">
+              <img src="images.jpeg" alt="prodcut 1" />
+              <h3>readmade lawn</h3>
+              <p>winter 2024</p>
+              <p>Price: $120</p>
+              <button
+                class="add-to-cart"
+                data-name="Classic Watch"
+                data-price="120"
+              >
+                Add to Cart
+              </button>
+            </div>
+
+            <div class="card">
+              <img src="images.jpeg" alt="Watch 2" />
+              <h3>readmade lawn</h3>
+              <p>Durable and stylish for active lifestyles.</p>
+              <p>Price: $150</p>
+              <button
+                class="add-to-cart"
+                data-name="Sport Watch"
+                data-price="150"
+              >
+                Add to Cart
+              </button>
+            </div>
+
+            <div class="card">
+              <img src="images.jpeg" alt="Watch 3" />
+              <h3>Luxury lawn</h3>
+              <p>Premium washingwear for special occasions.</p>
+              <p>Price: $300</p>
+              <button
+                class="add-to-cart"
+                data-name="Luxury Watch"
+                data-price="300"
+              >
+                Add to Cart
+              </button>
+            </div>
+          </div>
+
+          <div class="row2">
+            <div class="card">
+              <img src="images.jpeg" alt="Watch 4" />
+              <h3>special lawn</h3>
+              <p>Modern fabric </p>
+              <p>Price: $200</p>
+              <button
+                class="add-to-cart"
+                data-name="Digital Watch"
+                data-price="200"
+              >
+                Add to Cart
+              </button>
+            </div>
+
+            <div class="card">
+              <img src="images.jpeg" alt="Watch 5" />
+              <h3>super snitch</h3>
+              <p>Timeless style for daily wear.</p>
+              <p>Price: $180</p>
+              <button
+                class="add-to-cart"
+                data-name="Analog Watch"
+                data-price="180"
+              >
+                Add to Cart
+              </button>
+            </div>
+
+            <div class="card">
+              <img src="images.jpeg" alt="Watch 6" />
+              <h3>preninal fabric</h3>
+              <p>your style our design</p>
+              <p>Price: $250</p>
+              <button
+                class="add-to-cart"
+                data-name="Fitness Watch"
+                data-price="250"
+              >
+                Add to Cart
+              </button>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer>
+        <footer class="footer">
+          <div class="footer-container">
+              <div class="footer-logo">
+                  <h1>Wheels Fabric</h1>
+                  <p>Quality Clothing for Men</p>
+              </div>
+              <div class="footer-links">
+                  <h3>Quick Links</h3>
+                  <ul>
+                      <li><a href="#">Home</a></li>
+                      <li><a href="#">Shop</a></li>
+                      <li><a href="#">About Us</a></li>
+                      <li><a href="#">Contact Us</a></li>
+                  </ul>
+              </div>
+              <div class="footer-contact">
+                  <h3>Contact Us</h3>
+                  <p>Phone: +1 234 567 890</p>
+                  <p>Email: info@wheelsfabric.com</p>
+                  <p>Address: 123 Fashion St, New York, NY</p>
+              </div>
+              <div class="footer-social">
+                  <h3>Follow Us</h3>
+                  <ul>
+                      <li><a href="#">Facebook</a></li>
+                      <li><a href="#">Instagram</a></li>
+                      <li><a href="#">Twitter</a></li>
+                      <li><a href="#">LinkedIn</a></li>
+                  </ul>
+              </div>
+          </div>
+          <div class="footer-bottom">
+              <p>&copy; 2024 Wheels Fabric. All Rights Reserved.</p>
+          </div>
+      </footer>
+      
+      </footer>
+    </div>
+
+    <!-- Shopping Cart Section -->
+    
+    <!-- Dashboard Section -->
+    <div id="dashboard" style="display: none">
+      <h2>Dashboard</h2>
+      <p>Welcome to your dashboard!</p>
+      <h3>Products</h3>
+      <div id="product-list">
+        <!-- Placeholder for product listings -->
+      </div>
+    </div>
+
+    <div id="cart-section" style="display: none">
+      <h2>Your Shopping Cart</h2>
+      <ul id="cart-items"></ul>
+      <button id="checkout-btn">Checkout</button>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
